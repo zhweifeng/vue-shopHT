@@ -1,0 +1,133 @@
+    .activity-right{
+        width: calc(~"100% - 250px");
+        margin-top: 66px;
+        margin-left: 230px;;
+        float: left;
+        h1{
+            font-size: 26px;
+            margin: 10px 30px;
+        }
+        h3{
+            margin: 10px 0 20px;            
+        }
+        .select_type{
+            margin-bottom: 20px;
+            position: relative;
+            span{
+                margin-right: 10px;
+            }
+            button{
+                margin-left: 100px;
+            }
+        }
+    }
+    .el-table__body-wrapper{
+        margin-top: 15px;
+        img{
+            width: 80px;
+        }
+    }
+    .selGoods{
+        margin-bottom: 20px;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 20px;
+        section{
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            ul>li{
+                display: inline-block;
+                border: 1px solid #eee;
+                padding: 3px;
+                border-radius: 5px;
+                margin: 5px;
+                cursor: pointer;
+                &:hover{
+                    background: #f2f2f2;
+                }
+                i{
+                    cursor: pointer;
+                    border-radius: 50%;
+                    &:hover{
+                        color: #fff;
+                        background: #409EFF;
+                    }
+                }
+              
+            }
+        }
+    }
+    #search{
+        position: relative;
+        margin-bottom: 46px;
+        h3{
+            width: 80px;
+            display: inline-block;
+        }
+        .searchBtn{
+            position: absolute;
+            bottom: 10px;
+            right: 120px;
+        }
+        .addBtn{
+            position: absolute;
+            bottom: -40px;
+            right: 120px;
+        }
+    }
+    .pagination{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center
+    }
+    .searchList{
+        position: relative;
+        margin-bottom: 20px;
+          .bottomAdd{
+            position: absolute;
+            right: 0;
+            bottom: 0px;
+        }
+    }
+    .upload{
+        display: block;
+        width: 100px;
+        height: 100px;
+        border:1px dotted #ccc;
+        position: relative;
+        input{
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            z-index: 999;
+            cursor: pointer;
+        }
+        i{
+            font-size: 80px;
+            color: #ccc;
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            z-index: -1;
+        }
+    }
+    .prevImg{
+        position: relative;
+        display: inline-block;
+        &+.prevImg{
+            margin-left: 10px;
+        }
+        i{
+            position: absolute;
+            right: -8px;
+            top: -8px;
+            font-size: 20px;
+            color: #ec5051;
+            cursor: pointer;
+        }
+    }

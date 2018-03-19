@@ -1,0 +1,1 @@
+export const ADD_ALLMEAU = 'ADD_ALLMEAU'
